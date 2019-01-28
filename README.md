@@ -19,3 +19,9 @@ This command will be:
 Clean the cache and enable the module `Mauricio_Banner`.
 
 :blush:
+
+
+### List of repositories:
+- The docker: https://github.com/mauriciopazpp/docker-magento2
+- Docker hub: https://hub.docker.com/r/mauriciopazp/magento2
+- Module banner: https://github.com/mauriciopazpp/magento2-banner
