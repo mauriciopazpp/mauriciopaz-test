@@ -1,0 +1,10 @@
+#!/bin/bash
+
+git clone https://github.com/mauriciopazpp/docker-magento2.git \
+&& cd docker-magento2 \
+&& ./docker-kill \
+&& ./docker-up \
+&& ./docker-install-magento \
+&& git clone https://github.com/mauriciopazpp/magento2-banner.git docker-magento2/src/magento/app/code/Mauricio \
+&& cd docker-magento2 \
+&& echo "Done."
